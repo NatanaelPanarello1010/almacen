@@ -6,6 +6,24 @@
     <title>Mi primera App</title>
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <style>
+        /* Estilos adicionales */
+        #productName,
+        #productPrice {
+            margin-top: 1rem; /* Ajusta este valor según tus necesidades */
+        }
+    </style>
+    <style>
+        /* Estilos adicionales */
+        .footer {
+            text-align: center;
+            padding: 1rem 0; /* Espaciado interno */
+            background-color: #f8f9fa; /* Color de fondo */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <ion-app>
@@ -16,7 +34,7 @@
                         <ion-icon name="checkmark-outline"></ion-icon>
                     </ion-button>
                 </ion-buttons>
-                <ion-title>Productos</ion-title>
+                <ion-title>Virtual Box App √ </ion-title>
                 <ion-buttons slot="end">
                     <ion-button>
                         <p style="margin-right: 2.5em;">Total: <span id="total">0</span> $</p>
@@ -71,5 +89,9 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <script src="./app.js"></script>
+        <!-- Pie de página -->
+        <div class="footer">
+            <p>D. reservados  - © 2024 Biensencillo.site</p>
+        </div>
 </body>
 </html>
